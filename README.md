@@ -1,6 +1,10 @@
 # MuhiDark
 
-Fast, private dark mode for every site. Manifest V3, TypeScript, built for Brave (works in any Chromium browser 111+).
+Dark mode for every site.
+
+![dark](docs/darkmode.png)
+
+![off](docs/offmode.png)
 
 ## How it works
 
