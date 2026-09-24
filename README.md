@@ -2,9 +2,7 @@
 
 Dark mode for every site.
 
-![dark](docs/darkmode.png)
-
-![off](docs/offmode.png)
+![Dark Preview](docs/darkmode.png)
 
 ## How it works
 
