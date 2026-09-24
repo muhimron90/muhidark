@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MuhiDark</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main id="app" hidden>
+    <header class="head">
+      <div class="who">
+        <h1 id="host"></h1>
+        <p id="status" role="status"></p>
+      </div>
+      <label class="master" title="Turn MuhiDark on or off everywhere">
+        <input type="checkbox" id="master" role="switch" aria-label="Enable MuhiDark everywhere">
+        <i class="track" aria-hidden="true"></i>
+      </label>
+    </header>
+
+    <div class="stage" id="stage" aria-hidden="true"></div>
+
+    <div class="actions">
+      <button type="button" id="site" class="primary"></button>
+    </div>
+
+    <section class="look" aria-label="Appearance">
+      <div class="seg" role="radiogroup" aria-label="Rendering mode">
+        <label><input type="radio" name="mode" value="filter"><span>Filter</span></label>
+        <label><input type="radio" name="mode" value="dynamic"><span>Dynamic</span></label>
+      </div>
+      <p id="mode-note" class="note"></p>
+      <div id="sliders" class="sliders"></div>
+    </section>
+
+    <footer class="foot">
+      <label class="check">
+        <input type="checkbox" id="skip">
+        <span>Leave dark sites alone</span>
+      </label>
+      <button type="button" id="reset" class="quiet">Reset appearance</button>
+    </footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

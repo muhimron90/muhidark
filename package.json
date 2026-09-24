@@ -1,0 +1,21 @@
+{
+  "name": "muhidark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fast, private dark mode for every site. Built for Brave.",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "build:prod": "bun run build.mjs --prod",
+    "build:watch": "bun --watch run build.mjs",
+    "test": "bun test --only-failures",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p test && tsc --noEmit -p e2e"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/chrome": "^0.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

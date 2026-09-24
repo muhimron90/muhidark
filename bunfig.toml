@@ -1,0 +1,7 @@
+[test]
+root = "tests"
+smol = true
+pathIgnorePatterns = [
+  "e2e/**",
+  "e2e/fixtures/**"
+]
